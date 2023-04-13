@@ -2,9 +2,9 @@
 import styles from "./event-item.module.css";
 
 import Button from "../ui/button";
-import DateIcon from "../ui/date-icon";
-import AddressIcon from "../ui/address-icon";
-import ArrowRightIcon from "../ui/arrow-right-icon";
+import DateIcon from "../icons/date-icon";
+import AddressIcon from "../icons/address-icon";
+import ArrowRightIcon from "../icons/arrow-right-icon";
 
 const EventItem = ({ event }) => {
   const { title, image, date, location, id } = event;

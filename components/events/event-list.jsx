@@ -1,5 +1,6 @@
 import EventItem from "./event-item";
 import styles from "./event-list.module.css";
+
 const EventList = ({ items }) => {
   const eventListDisplay = items.map((event) => {
     return (
