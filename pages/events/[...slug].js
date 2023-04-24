@@ -40,7 +40,7 @@ export const getServerSideProps = async (context) => {
     month: +filterData[1],
   };
   const filteredEvents = await getFilteredEvents(dateParam);
-  //console.log("filtered Events: ", filteredEvents);
+
   if (filteredEvents.length > 0) {
     return {
       props: {
